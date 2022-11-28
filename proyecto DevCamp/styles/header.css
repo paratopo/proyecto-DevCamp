@@ -1,0 +1,88 @@
+.header {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.header > .logo {
+    width: 25%;
+}
+.header > .nav-bar {
+    width: 45%;
+    margin:20px 150px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.header > .nav-bar > .nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header > .buttons {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo img {
+    height: 40px;
+    width: 220px;
+    margin: 25px;
+}
+
+.nav-bar h2 {
+    color: yellow;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.nav-link a {
+    color: white;
+    font-weight: 900;
+    font-size: 1.25em;
+}
+.nav-wrapper label {
+    color: gray;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 0px;
+} 
+.buttons > .create, .search, .login-link {
+    flex-basis: content;
+}
+.buttons label {
+    color: white;
+    font-weight: bold;
+}
+.buttons > .login-link a {
+    color: white;
+    font-weight: bold;
+}
+#button-header i {
+    color: green;
+    font-size: 1.20em;
+}
+.buttons > .search i {
+    color: gray;
+    font-size: 1.75em;
+    margin: 0px 5px;
+}
+#button-header {
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    background-color: gray;
+}
+
